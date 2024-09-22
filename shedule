@@ -1,0 +1,24 @@
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Расписание</title>
+      <link href="css/styles.css" rel="stylesheet">
+  </head>
+<body>
+
+   <div class="header" id="header">
+      <button class="btn" id="btn_corrent_week">Текущая неделя</button>
+      <button class="btn" id="btn_next_week">Будущая неделя</button>
+   </div>
+
+   <div id="result" class="result">
+      <iframe id="result_iframe" src="https://www.mauniver.ru/student/timetable/new/print.php?key=bda967cb-19b4-11ef-9f67-1cc1de6f817c&perstart=2024-09-16&perend=2024-09-22&perkind=%F7;perstart=2024-09-16&amp;perend=2024-09-22" height="100%" width="100%"></iframe>
+  </div>
+
+
+
+<script src="jsscript.js"></script>
+
+
+</body>
+<html>
